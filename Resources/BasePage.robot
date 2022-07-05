@@ -1,6 +1,7 @@
 ***Settings
-[Documentation]     This is the main page for the project
+Documentation     This is the main page for the project
 Library         SeleniumLibrary
+Resource        Pages/TutorialPage.robot
 
 ***Variables
 ${BASEURL}      https://d2fnnoijlny9vq.cloudfront.net/

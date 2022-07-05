@@ -7,14 +7,3 @@ Suite Teardown  Close Session
 Scenario 1 - Test Tutorial
     Given acesso a pagina
     Then verifico a pagina de tutorial
-
-***Variables
-${samImg}           //img[@alt='SAM']
-
-***Keywords
-
-Given acesso a pagina
-    Sleep   5
-
-Then verifico a pagina de tutorial
-    Wait Until Element Is Visible       ${samImg}
